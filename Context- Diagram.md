@@ -7,6 +7,15 @@ flowchart TD
     C -->|Heavy Duty| F[Heavy Duty Wash]
     D -->|Drying| G[Delicate Dryer]
     E -->|Drying| H[Regular Dryer]
+It should be:
+
+```mermaid
+flowchart TD
+    A[Customer] -->|Drops off Clothes| B[Reception]
+    B -->|Sorts Laundry| C[Sorting Station]
+    C -->|Delicate| D[Delicate Wash]
+    C -->|Regular| E[Regular Wash]
+    C -->|Heavy Duty| F[Heavy Duty Wash]
     F -->|Drying| I[Heavy Duty Dryer]
     G -->|Folding| J[Folding Station]
     H -->|Folding| J
