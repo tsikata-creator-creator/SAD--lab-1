@@ -1,4 +1,4 @@
-```mermaid
+```gherkin
 User Story: Customer drops off clothes for laundry service.
 Scenarios
 GIVEN the customer is at the reception
